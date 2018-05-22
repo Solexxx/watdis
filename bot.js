@@ -75,7 +75,7 @@ if (msg.content.toLowerCase().startsWith(".colorembed ")) {
   }
 });
 }
-if (msg.content.toLowerCase() === "quote") {
+if (msg.content.toLowerCase() === ".quote") {
 msg.delete();
 msg.channel.send(quotes[Math.floor(Math.random()*quotes.length)]);
 }
